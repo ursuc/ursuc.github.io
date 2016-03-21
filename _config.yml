@@ -34,6 +34,16 @@ gems:
 
 prose:
   ignore: 
-    - _config.yml
     - /_layouts
     - /_includes
+    - /_posts
+    - /_sass
+    - /assets
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - favicon.ico
+    - feed.xml
+    - _config.yml
