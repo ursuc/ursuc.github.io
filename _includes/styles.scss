@@ -40,6 +40,12 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
   }
 }
 
+@mixin respond-from($breakpoint) {
+  @media only screen and (min-width: $breakpoint + px) {
+    @content;
+  }
+}
+
 // Only needed for syntax highlighting
 %vertical-rhythm {
   margin-bottom: $rs;
@@ -91,6 +97,9 @@ p {
   -moz-hyphens: auto;
   hyphens: auto;
 }
+section{
+  line-height: 1.59;
+}
 
 
 
@@ -98,28 +107,38 @@ p {
 .con {
   max-width: 940px;
   margin: 0 auto;
+   @include respond-to(980) {
+    padding: 0 $rs * 1;
+  }
 }
 
 .site-header {
-  height: 200px;
+  
   position: relative;
   width: 100%;
   @include box-sizing(border-box);
+
+  .logo{
+    margin-top: 15px;
+    display: inline-block;
+  }
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
 
-  .con {
-    height: 100%;
-    display: table;
-    width: 100%;
+   @include respond-from(582) {
+   height: 200px;
+    .con {
+      height: 100%;
+      display: table;
 
-    .logo,section {
-        display: table-cell;
-        vertical-align: middle;
+      .logo,section {
+          display: table-cell;
+          vertical-align: middle;
+      }
+
+      h1{margin-left:82px;}
     }
-
-    h1{margin-left:82px;}
   }
 
 }
@@ -232,7 +251,7 @@ p {
   width: 23%;
   background: $red;
   padding: 20px;
-  margin-right: 2%;
+  margin:0 2% 2% 0;
   float: left;
   box-sizing: border-box;
   text-align: center;
@@ -263,6 +282,10 @@ p {
 
   &:hover{
   background:#B94343;
+  }
+
+   @include respond-to(876) {
+    width: 48%;
   }
 }
 
