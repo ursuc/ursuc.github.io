@@ -6,22 +6,20 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Awesome Site Title
-email: your-email@domain.com
+title: Kramer tekst og sprog
+email: lk@kramertekstogsprog.dk
 description: >
   Awesome site description here
-logo: "/assets/images/logo.jpg"
-baseurl: "http://ursuc.github.io" # the subpath of your site, e.g. /blog
-url: "http://ursuc.github.io" # the base hostname & protocol for your site
+logo: "assets/images/logo.jpg"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http:///127.0.0.1:4000" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
-name: 'Your Name'
+name: 'Lis Kramer'
 bio: >
   Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
   Ne solet nostrum complectitur pri, vis ut inani populo.
 author_image: "/assets/images/author.jpg"
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
