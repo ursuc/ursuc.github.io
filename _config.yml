@@ -33,4 +33,4 @@ gems:
   - jekyll-paginate
 
 prose:
-  ignore: ['config.yml']
+  ignore: ['_includes','_config.yml']
