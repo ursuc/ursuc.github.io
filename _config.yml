@@ -47,3 +47,6 @@ prose:
     - favicon.ico
     - feed.xml
     - _config.yml
+
+collections:
+  - ydelser

@@ -4,8 +4,8 @@
 $grey-color:       #828282;
 
 $rs:      16px;
-$black:   #1a1e1e;
-$red:     #b43030;
+$black:   #020202;
+$red:     #880013;
 
 .icon {
 
@@ -83,6 +83,10 @@ h3{
   font-size:$rs - 2;
   text-transform:uppercase;
   font-family: $font-sans;
+
+   @include respond-to(600) {
+    font-size: $rs - 4;
+  }
 }
 
 p {
@@ -114,13 +118,18 @@ section{
 
 .site-header {
   
-  position: relative;
+  position: relative;overflow: hidden;
   width: 100%;
   @include box-sizing(border-box);
 
   .logo{
     margin-top: 15px;
     display: inline-block;
+  }
+  > img{
+    position: absolute;
+    right: 0;
+    z-index: -1;
   }
   @include respond-to(800) {
     padding: 0 $rs * 1;
@@ -146,18 +155,71 @@ section{
 .page-links {
     font-family: $font-sans;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     background:$black;
-    padding:10px 0;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.06em;
 
+    > .con > ul{
+      padding:0;margin: 5px 0;
+    }
+
+    > .con > ul > li.active:after{
+      position: absolute;
+      z-index: 9999;
+      top: 92%;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: $red;
+      content: '';
+    }
+
+    li{
+      display: inline-block;
+      zoom: 1;
+      vertical-align: top;
+      position: relative;
+      z-index: 1;
+      margin-right: $rs * 2;
+      padding:10px 0;
+    }
+
+    li ul{
+      position: absolute;
+      left: 0px;
+      top: 50px;
+      list-style: none;
+      min-width: 240px;
+      padding-left: 0;
+      z-index: -1;
+      visibility: hidden;
+      transition: 0.1s 0.1s;
+      background: $black;
+    }
+
+    li ul li{
+      padding: 11px 22px;
+    }
+
+    li ul li:first-child{
+      padding-top:14px;
+    }
+
+    li ul li:last-child{
+      padding-bottom:14px;
+    }
+
+    li:hover > ul, li a + ul:hover{
+      visibility: visible;
+      transition-delay: 0.2s;
+    }
+
     a {
       text-decoration: none;
       color: $red;
-      margin-right: $rs * 2;
       &:hover {
         opacity:.9;
       }
@@ -256,12 +318,19 @@ section{
   box-sizing: border-box;
   text-align: center;
   cursor:pointer;
+  font-size:15px;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 
   p{
     color: $black;
     line-height:1.2;
-    font-size:15px;
-    margin:0;
+    margin:0;font-size:15px;
   }
 
   a {

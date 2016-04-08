@@ -1,4 +1,5 @@
 <header class="site-header">
+	<img src="assets/images/tt.png" width="940" height="632">
   <div class="con">
     <a href="{{ site.baseurl }}/" class="logo"><span class="logo"><amp-img src="{{ site.baseurl }}/{{ site.logo }}" width="181" height="159" /></span></a>
     <section>
@@ -7,11 +8,9 @@
   </div>
 </header>
 
- <div class="page-links">
-    <div class="con">
-      <a class="page-link" href="{{ site.baseurl }}/">Forside</a>
-      <a class="page-link" href="{{ site.baseurl }}/ydelser">Ydelser</a>
-      <a class="page-link" href="{{ site.baseurl }}/om-mig">Om mig</a>
-      <a class="page-link" href="{{ site.baseurl }}/kontakt">Kontakt</a>
-    </div>
+
+<div class="page-links">
+  <div class="con">
+    {% include navigation.html context="/" %}
   </div>
+</div>

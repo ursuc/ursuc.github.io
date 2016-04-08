@@ -2,6 +2,7 @@
 layout: page
 title: Om mig
 permalink: /om-mig/
+weight: 2
 ---
 
 
