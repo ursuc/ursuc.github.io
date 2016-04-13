@@ -350,7 +350,7 @@ section{
   }
 
   &:hover{
-  background:#B94343;
+  opacity:.9;
   }
 
    @include respond-to(876) {
