@@ -12,4 +12,3 @@ Hvis du har brug for en virtuel assistent til opgaver inden for oversættelse, t
 Ring på tlf. XX XX XX XX (læg evt. en besked), eller send mig en e-mail på lk@kramertekstogsprog.dk , så vil jeg vende tilbage hurtigst muligt.
 
 Jeg glæder mig til at høre fra dig!
-
