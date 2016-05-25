@@ -1,32 +1,16 @@
 ---
 layout: page
 title: Om mig
-permalink: /om-mig/
+permalink: "/om-mig/"
 weight: 2
+published: true
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac augue libero.
-Fusce ac tempor dolor. Ut est dui, gravida a consequat aliquet, fermentum
-sodales risus. Suspendisse eu arcu id mi ornare facilisis non id nisl. Maecenas
-nec congue arcu, non semper neque. Proin mollis nisl diam, eu ultrices diam
-facilisis et. Integer fringilla lorem quis semper venenatis.
+Jeg har dels en uddannelse som korrespondent i engelsk og fransk (hvori dansk kommunikation også indgår) og en uddannelse som folkeskolelærer med linjefagene dansk og engelsk. Jeg er inkarneret sprog-nørd og sætter en ære i, at kommunikationen og sproget er flydende og fejlfrit.
 
-Aliquam vestibulum purus enim. Sed rhoncus interdum erat id consequat. Nulla
-cursus venenatis massa, quis convallis lacus condimentum vel. Etiam mollis,
-orci ac pharetra commodo, diam lectus hendrerit eros, ac elementum magna augue
-sed tellus. Maecenas molestie, nisi ut sodales scelerisque, purus neque
-imperdiet dui, mollis elementum sem augue vel ipsum. Nulla lacinia arcu at quam
-lobortis, vitae interdum tellus fermentum. Cum sociis natoque penatibus et
-magnis dis parturient montes, nascetur ridiculus mus. Fusce sodales semper erat,
-eu fringilla ligula vulputate id. Maecenas quis libero pellentesque lacus
-egestas vehicula sit amet et neque. Nulla nec facilisis sem. Pellentesque rutrum
-elementum molestie. Quisque eget dui ac quam placerat dictum. Suspendisse quis
-ante placerat, efficitur enim ut, commodo tortor. Etiam consequat, eros quis
-consequat congue, augue mauris molestie libero, sed iaculis lectus enim eu magna.
+Jeg har desuden et 10 måneders kursus kaldet KommunikationsKoordinator. Kurset koncentrerede sig om sproglig, grafisk og digital kommunikation.
 
-Etiam sapien dolor, mattis vel feugiat nec, egestas eget risus. Lorem ipsum
-dolor sit amet, consectetur adipiscing elit. Aenean aliquam massa a est porta
- vehicula. Cras eu gravida massa. Integer non sem ac mi ultrices posuere a
- pretium tortor. Mauris vitae varius sem. Praesent faucibus nec felis et dictum.
- Vestibulum lorem velit, laoreet nec vestibulum in, varius nec enim.
+Jeg har mange års erfaring som hhv. korrespondent og sekretær samt inden for salg og marketing.
+
+Jeg er en sprog-nørd, der går meget op i sprog – både det skrevne og det talte, og da jeg samtidig interesserer mig for rigtigt mange ting og er et nysgerrigt menneske, vokser mit ordforråd konstant inden for stadig flere fagområder
