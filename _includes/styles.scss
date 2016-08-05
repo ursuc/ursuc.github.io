@@ -61,7 +61,7 @@ main:after{
 }
 
 body {
-  font-family: $font-serif;
+  font-family: $font-sans;
   margin: 0;
   padding: 0;
   background: #edd8ad;
@@ -77,12 +77,12 @@ body {
 h1{
   font-size:26px;
   color:#85000f;
+  font-family: $font-serif;
 }
 
 h3{
   font-size:$rs - 2;
   text-transform:uppercase;
-  font-family: $font-sans;
 
    @include respond-to(600) {
     font-size: $rs - 4;
@@ -153,7 +153,6 @@ section{
 }
 
 .page-links {
-    font-family: $font-sans;
     font-style: normal;
     font-size: 16px;
     line-height: 30px;
@@ -412,18 +411,13 @@ section{
     font-style: normal;
     font-size: 14px;
     overflow: hidden;
-    font-family: $font-sans;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
 
   .post-content {
     width: 100%;
-    font-family: $font-serif;
     color: #333333;
-    h1, h2, h3 {
-      font-family: $font-sans;
-    }
     h3, h4, h5, h6 {
       letter-spacing: -0.02em;
       font-weight: 700;
@@ -432,7 +426,6 @@ section{
       line-height: 1.3;
       margin-top: 50px;
       margin-bottom: 0px;
-      font-family: $font-sans;
     }
     h3 {
       font-size: 36px;
@@ -513,7 +506,6 @@ section{
   }
   .bottom-teaser {
     padding: 50px 0 0 0;
-    font-family: $font-sans;
     hr {
       border: 0;
       padding: 0;
