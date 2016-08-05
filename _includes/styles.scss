@@ -95,7 +95,6 @@ p {
   font-size: 17px;
   line-height: 1.59;
   letter-spacing: -.002em;
-  margin-top: 30px;
   color: #333333;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -229,6 +228,7 @@ section{
 .content {
   width: 100%;
   max-width: 940px;
+  min-height:480px;
   margin: 25px auto 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
@@ -237,7 +237,6 @@ section{
 
   article {
     padding: 20px 0;
-    border-bottom: 1px solid #f2f2f0;
     &:last-child {
       border-bottom: 0px;
     }

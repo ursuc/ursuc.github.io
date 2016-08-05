@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ydelser
-permalink: /ydelser/
+permalink: /ydelser/oversaettelse/
 weight: 1
 ---
 
