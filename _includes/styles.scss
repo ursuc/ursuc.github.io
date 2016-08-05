@@ -307,12 +307,15 @@ section{
   }
 }
 
+.table{
+    display: table;
+    border-spacing: 14px;
+}
 .box{
   width: 23%;
   background: $red;
   padding: 20px;
-  margin:0 2% 2% 0;
-  float: left;
+  display: table-cell;
   box-sizing: border-box;
   text-align: center;
   cursor:pointer;
