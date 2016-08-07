@@ -308,14 +308,15 @@ section{
 }
 
 .table{
-    display: table;
-    border-spacing: 14px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 .box{
   width: 23%;
   background: $red;
   padding: 20px;
-  display: table-cell;
+  margin-bottom: 10px;
   box-sizing: border-box;
   text-align: center;
   cursor:pointer;
