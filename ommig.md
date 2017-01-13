@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Om mig
-permalink: "/om-mig/"
+permalink: /om-mig/
 weight: 2
 published: true
 ---
@@ -13,4 +13,4 @@ Jeg har desuden et 10 måneders kursus kaldet KommunikationsKoordinator. Kurset 
 
 Jeg har mange års erfaring som hhv. korrespondent og sekretær samt inden for salg og marketing.
 
-Jeg er en sprog-nørd, der går meget op i sprog – både det skrevne og det talte, og da jeg samtidig interesserer mig for rigtigt mange ting og er et nysgerrigt menneske, vokser mit ordforråd konstant inden for stadig flere fagområder
+Jeg er en sprog-nørd, der går meget op i sprog – både det skrevne og det talte, og da jeg samtidig interesserer mig for rigtigt mange ting og er et nysgerrigt menneske, vokser mit ordforråd konstant inden for stadig flere fagområder.
